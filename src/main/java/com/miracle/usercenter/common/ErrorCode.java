@@ -44,8 +44,6 @@ public enum ErrorCode {
         return message;
     }
 
-    // https://t.zsxq.com/0emozsIJh
-
     public String getDescription() {
         return description;
     }

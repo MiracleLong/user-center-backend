@@ -50,7 +50,6 @@ public class ResultUtils {
         return new BaseResponse(errorCode.getCode(), null, message, description);
     }
 
-    // https://space.bilibili.com/12890453/
 
     /**
      * 失败
