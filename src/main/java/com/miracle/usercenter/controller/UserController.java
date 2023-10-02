@@ -72,4 +72,19 @@ public class UserController {
         return ResultUtils.success(user);
     }
 
+    /**
+     * 用户注销
+     *
+     * @param request
+     * @return
+     */
+    @PostMapping("/logout")
+    public BaseResponse<Integer> userLogout(HttpServletRequest request) {
+        if (request == null) {
+            throw new BusinessException(ErrorCode.PARAMS_ERROR);
+        }
+        int result = userService.userLogout(request);
+        return ResultUtils.success(result);
+    }
+
 }
