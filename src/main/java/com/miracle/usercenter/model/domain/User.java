@@ -7,6 +7,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
+ * 用户实体
  * @author dargon
  * @create 2023-10-02
  */
